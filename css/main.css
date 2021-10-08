@@ -3,6 +3,12 @@
   position: relative;
   margin-left: 16px; }
 
+@media (min-width: 768px) {
+  .border-right-md {
+    border-left: 1px solid grey;
+  }
+}
+
 .timeline-card:before {
   content: '';
   display: inline-block;
